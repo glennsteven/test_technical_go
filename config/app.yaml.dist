@@ -1,0 +1,43 @@
+app:
+  name: example
+  port: 8080
+  timezone: asia/shanghai
+  debug: false
+
+db_write:
+  driver: ""
+  host: ""
+  port: 0
+  name: "" # database name
+  user: "" # database user
+  pass: "" # database password
+  max_open: 50
+  max_idle: 25
+  dial_timeout: "10s"
+  life_time: "500ms"
+  read_timeout: "5s"
+  write_timeout: "5s"
+  charset: "utf8"
+  timezone: "Asia/Jakarta"
+
+db_read:
+  driver: ""
+  host: ""
+  port: 0
+  name: "" # database name
+  user: "" # database user
+  pass: "" # database password
+  max_open: 50
+  max_idle: 25
+  dial_timeout: "10s"
+  life_time: "500ms"
+  read_timeout: "5s"
+  write_timeout: "5s"
+  charset: "utf8"
+  timezone: "Asia/Jakarta"
+
+cloudinary:
+  cloud_name: ""
+  api_key: ""
+  api_secret: ""
+
